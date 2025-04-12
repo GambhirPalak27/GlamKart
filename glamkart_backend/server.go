@@ -82,7 +82,7 @@ func handleCreatePaymentIntent(writer http.ResponseWriter, request *http.Request
 }
 
 func handleHealth(writer http.ResponseWriter, request *http.Request) {
-	response := []byte("Server is up and running!")
+	response := []byte("Server is up and running!!")
 
 	_, err := writer.Write(response)
 	if err != nil {
